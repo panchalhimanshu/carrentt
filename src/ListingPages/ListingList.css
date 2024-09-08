@@ -1,0 +1,148 @@
+/* .ListingList_main_card
+{
+  
+    background: yellow;
+} */
+.car-card
+{
+    margin-top: 80px;
+    padding: 50px 0;
+}
+.ListingList_card
+{
+width: 80%;
+display: grid;
+grid-template-columns: 1fr 2fr;
+column-gap: 10px;
+margin: 15px auto 15px auto; 
+padding: 10px;
+border: 1px solid gray;
+border-radius: 20px;
+}
+.ListingList_img
+{
+    height: 200px;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.ListingList_img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+}
+.ListingList_img img:hover
+{
+    transform: scale(1.2);
+}
+.Listinglist_name_review p
+{
+    padding-bottom: 5px;
+}
+.Listing_carrent
+{
+    color: red;
+    font-size: 25px;
+}
+.Listing_carrent span
+{
+    font-size: 16px;
+    color: black;
+}
+
+.Listinglist_name_review
+{
+    display: flex;
+    justify-content: space-between;
+}
+.Listinglist_car_info
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin:15px 0 10px 0;
+    column-gap: 2px;
+    row-gap: 2px;
+}
+.Listinglist_car_info div
+{
+    background: #f2f7f6;
+    padding:5px 5px 5px 3px;
+    border: 1px solid rgb(128, 128, 128,0.3);
+    border-radius: 5px;
+}
+.Listinglist_Rent_country
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.Listinglist_Rent_country .Listinglist_Rent
+{
+    background: black;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+
+.pagination
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-align: center;
+    margin-top: 20px;
+}
+.page-item
+{
+    border: 1px solid rgb(19, 122, 232);
+    padding: 10px;
+    color: white !important;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.page-link
+{
+    text-decoration: none;
+    color: black !important;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.activecurrntpage
+{
+    background: rgb(19, 122, 232) ;
+    color: white !important;
+    font-weight: 700;
+    font-size: 18px;
+    border-radius: 5px;
+
+}
+
+@media (max-width:900px)
+{
+    .ListingList_card
+    {
+        width: 98%;
+    }
+}
+
+@media (max-width:700px)
+{
+    .ListingList_card
+    {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+.Listinglist_car_info
+{
+    grid-template-columns: repeat(3,1fr);
+    
+}
+}

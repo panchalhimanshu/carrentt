@@ -1,0 +1,59 @@
+.Listingdetails_card
+{
+width: 80%;
+display: grid;
+grid-template-columns: 2fr 2fr;
+column-gap: 10px;
+margin: 15px auto 15px auto; 
+padding: 10px;
+border: 1px solid gray;
+border-radius: 20px;
+}
+.Listingdetails_img
+{
+    height: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.Listingdetails_img img
+{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    transform: scale(1);
+    transition: 0.5s ease-in-out;
+    border-radius: 15px;
+}
+
+
+
+.watchlist_img
+{
+    height: 200px;
+}
+.WatchList-noitem
+{
+    text-align: center;
+    padding: 20px 0;
+    border-top: 2px solid #FFA633;
+    margin: 50px 0;
+    color: #FFA633;
+}
+
+@media (max-width:1200px)
+{
+    .Listingdetails_card
+    {
+        width: 98%;
+    }
+}
+
+@media (max-width:750px)
+{
+    .Listingdetails_card
+    {
+        grid-template-columns: 1fr;
+        row-gap: 15px;
+    }
+
+}

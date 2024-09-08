@@ -1,0 +1,43 @@
+/**
+ * @output remoter/src/js/analytics-scripts.js
+ */
+
+/**
+ * Theme-specific analytics scripts.
+ *
+ * Analytics scripts that are specific to the theme.
+ *
+ * @link   https://10up.com/
+ * @author 10up
+ * @since  1.0.0
+ */
+document.addEventListener( 'DOMContentLoaded', () => {
+	/**
+	 * Tracks clicks on related articles.
+	 *
+	 * The clicks are tracked using a GA4 recommended event "select_content".
+	 *
+	 * Event Name: select_content
+	 * Event Parameters:
+	 * - content_type: related_article
+	 * - item_id: URL of the related article
+	 *
+	 * @link https://developers.google.com/analytics/devguides/collection/ga4/reference/events?client_type=gtag#select_content
+	 *
+	 * @listens click
+	 *
+	 * @param {event} event The event object.
+	 *
+	 * @return {void}
+	 */
+	if ( typeof gtag === 'function' ) {
+		document.addEventListener( 'click', ( event ) => {
+			if ( event.target.matches( '.related-article a' ) ) {
+				gtag( 'event', 'select_content', {
+					content_type: 'related_article',
+					item_id: event.target.getAttribute( 'href' ),
+				} );
+			}
+		} );
+	}
+} );

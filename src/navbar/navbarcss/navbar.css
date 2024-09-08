@@ -1,0 +1,338 @@
+.Link_tag
+{
+    text-decoration: none;
+    color: white;
+}
+
+.Link_tag_color
+{
+    color: black;
+}
+.navbar,.logo-btn
+{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+   
+}
+.navbar
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 13px;
+    font-weight: 600;
+    z-index: 999;
+}
+#nav
+{
+    background: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none; 
+}
+.logo-btn .navlogo
+{
+    margin: 10px;
+}
+.logo-btn .navbtn
+{
+    padding: 4px 10px;
+    color: #FFA633;
+    display: none;
+    font-size: 34px;
+    cursor: pointer;
+
+}
+#nav-close-btn
+{
+    display: none;
+}
+#nav li
+{
+    padding: 5px ;
+    margin: 2px;
+}
+
+.Sign_in_up_btn button
+{
+    padding: 10px;
+    margin: 5px;
+    font-size:18px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-weight: 620;
+}
+.sign_in
+{
+    background: black;
+    padding: 10px;
+    border: none;
+}
+.sign_up
+{
+    background: #FFA633;
+    padding: 10px;
+    border: none;
+}
+.navsec_signbtn
+{
+    display: none;
+}
+#nav li:hover
+{
+color: #FFA633;
+}
+.Listing-list
+{
+    display: none;
+}
+.Listing
+{
+    position: relative;
+    transition: 0.5s ;
+}
+.Listing *
+{
+    transition: 0.5s;
+
+}
+.Listing:hover .Listing-list
+{
+display: block;
+/* height: 140px; */
+width: 150px;
+position: absolute;
+top: 30px;
+left: 0;
+background: whitesmoke;
+color: black;
+padding: 25px 0 10px 15px;
+border-radius: 0 0 10px 10px;
+}
+.Listing-list div{
+    padding: 10px 0;
+}
+.Listing-list .Link_tag_text
+{
+    color: black ;
+}
+.Listing-list .Link_tag_text:hover
+{
+    color: #FFA633 !important;
+    padding:0 5px;
+}
+.navigate
+{
+    margin: 5px 0;
+    color: rgba(0, 69, 231, 0.716);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.signin_main_page
+{
+    background: whitesmoke;
+    height: 100%;
+    width: 100%;
+}
+.signin-page
+{
+    background: white;
+    width: 45%;
+    margin: 100px auto 0 auto;
+    padding: 15px 10px 10px 10px;
+    border-radius: 10px;
+}
+.signin_logo
+{
+    background: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signin-page input
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 40px;
+    margin: 5px 0;
+    background: whitesmoke;
+
+}
+.signin-page #checkbox
+{
+    height: 20px;
+    width: 20px;
+    margin: 10px 0;
+}
+
+.signin-page h1
+{
+    padding: 15px 0 5px 0;
+}
+.signin-page .form
+{
+    padding: 15px 0;
+}
+.signin-page #signin
+{
+    background: black;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    height: 45px;
+    cursor: pointer;
+}
+.google_signin
+{
+    text-align: center;
+    font-size: 18px;
+    margin: 25px 0;
+}
+.google_signin i
+{
+    color: rgb(7, 115, 238);
+    font-size: 25px;
+}
+.signin_{
+    text-align: center;
+    padding: 10px 0;
+}
+.list,.Listing_hiden
+{
+    display: none;
+}
+
+@media (max-width:900px)
+{
+
+.logo-btn .navbtn
+{
+    display: block;
+}
+#nav
+{
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+position: fixed;
+top: 0px;
+left: -272px;
+width: 270px;
+height: 100vh;
+background: rgb(0, 0, 0,0.97);
+color: #FFA633;
+transition: 0.5s ease-in-out;
+}
+#nav.active
+{
+    left: 0;
+}
+#nav li
+{
+    display: inline-block;
+    width: 270px;
+    border-bottom: 1px solid white;
+    font-weight: 800;
+    padding: 10px 8px;
+    color: white;
+}
+#nav li:nth-child(3)
+{
+    display: none;
+}
+#nav-close-btn
+{
+    text-align: left;
+}
+#nav-close-btn span
+{
+    display: block;
+    transform: translate(110px,-30px);
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+.navsec_signbtn
+{
+    display: block;
+}
+.Sign_in_up_btn button
+{
+    display: none;
+}
+.sign_in
+{
+    border: none;
+    background: transparent;
+}
+.sign_up
+{
+    background: transparent;
+    border: none;
+}
+.nav_link_text
+{
+  color: white;
+}
+.nav_link_text:hover
+{
+    color: #FFA633;
+}
+
+
+.signin-page
+{
+    width: 90%;
+}
+.Addcart-product
+{
+    color:white !important;
+}
+.addcart-qua-number
+{
+border: 2px solid black !important;
+}
+
+
+.list,.Listing_hiden
+{
+    display: block;
+    color: white !important;
+}
+.Listing_hiden:hover
+{
+    color: #FFA633 !important;
+}
+.list .Link_tag_text
+{
+    color: white !important;
+    transition: 0.5s;
+}
+.list .Link_tag_text:hover
+{
+    padding-left: 5px;
+    color: #FFA633 !important;
+}
+.Listing:hover .Listing-list
+{
+    display: none;
+}
+.navsec_signbtn .Link_tag:hover
+{
+    color: #FFA633 !important;
+}
+}

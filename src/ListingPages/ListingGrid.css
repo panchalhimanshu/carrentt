@@ -1,0 +1,133 @@
+.Listinggrid_container
+{
+    padding-top: 0px;
+
+}
+.carlisting
+{
+    width: 100%;
+    background: black;
+    color: white;
+    padding: 50px 0 ;
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.carlisting span
+{
+    color: #FFA633;
+}
+.carlisting .path_listing
+{
+    padding-top: 10px;
+}
+.Selected_options
+{
+    display: grid;
+    grid-template-columns:2.5fr 5fr 1fr;
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px 15px 20px 15px;
+    color: gray;
+    font-size: 17px;
+}
+
+.Selected_options select
+{
+    padding: 10px ;
+    background: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 5px;
+    width: 100%;
+    font-size: 17px;
+    /* appearance: none; */
+}
+.Selected_options select option
+{
+    background: #FFA633;
+    color: white;
+    font-size: 17px;
+}
+.selected_results 
+{
+    display: grid;
+    grid-template-columns:repeat(4 , 1fr);
+    column-gap: 5px;
+}
+.selected_results label
+{
+    text-align: right;
+    padding-right: 10px;
+}
+.selected_icons .selected-list
+{
+    background: #FFA633;
+    color: white;
+    border-radius: 5px;
+    font-size: 40px;
+    margin-left:10px;
+    padding: 5px;
+}    
+.selected_icons .selected-list-grid
+{
+    background: white;
+    color: #FFA633;
+    border: 1px solid #FFA633;
+}
+.Listinggrid_Price
+{
+    width:25%;
+    border: 2px solid #FFA633;
+    border-radius: 10px;
+    margin: 40px auto 0 auto;
+    text-align: center;
+    padding: 10px;
+    color: #FFA633;
+    font-weight: bold;
+    font-size: 22px;
+}
+.Listinggrid_Price input
+{
+    width: 100%;
+    background: #FFA633;
+    color: #FFA633;
+}
+
+
+
+
+@media (max-width:1100px)
+{
+.Selected_options
+    {
+        width: 100%;
+    }
+.Listinggrid_Price
+{
+width: 60%;
+}
+}
+ 
+@media (max-width:900px)
+{
+.Selected_options
+    {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+    .selected_results label
+{
+    text-align: left;
+}
+
+}
+@media (max-width:700px)
+{
+    .selected_results 
+    {
+        grid-template-columns: 1fr;
+        row-gap: 10px;
+    }
+
+}
+ 

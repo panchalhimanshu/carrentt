@@ -1,0 +1,118 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "json-server",
+      "email": "typicode",
+      "password": "shdjhm"
+    },
+    {
+      "name": "Panchal Himanshu",
+      "email": "panchalhimanshu660@gmail.com",
+      "password": "himanshu_143",
+      "id": "2"
+    },
+    {
+      "name": "Kano Panchal",
+      "email": "xyz",
+      "password": "1234",
+      "id": "3"
+    },
+    {
+      "name": "himanshu panchal",
+      "email": "Himanshu@gmail.com",
+      "password": "123456",
+      "id": "4"
+    },
+    {
+      "name": "Himanshu",
+      "email": "P@gmail.com",
+      "password": "5555",
+      "id": "5"
+    },
+    {
+      "name": "s",
+      "email": "s",
+      "password": "s",
+      "id": "6"
+    },
+    {
+      "name": "Panchal Himanshu",
+      "email": "x",
+      "password": "x",
+      "id": "7"
+    },
+    {
+      "id": "f854",
+      "name": "Panchal Himanshu",
+      "email": "w",
+      "password": "w"
+    },
+    {
+      "id": "22bb",
+      "name": "himanshu panchal",
+      "email": "himansh",
+      "password": "s"
+    },
+    {
+      "id": "dcd8",
+      "name": "Panchal Himanshu",
+      "email": "panchalhimanshu@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "88b1",
+      "name": "Panchal Himanshu",
+      "email": "z",
+      "password": "z"
+    },
+    {
+      "id": "f1bd",
+      "name": "Panchal Bunty",
+      "email": "b@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "6b6e",
+      "name": "Himanshu Panchal",
+      "email": "panchalhimanshu1234@gmail.com",
+      "password": "54564"
+    },
+    {
+      "id": "71d4",
+      "name": "Bunty Panchal",
+      "email": "c@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "a3f4",
+      "name": "Panchal Himanshu",
+      "email": "p@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "493b",
+      "name": "x",
+      "email": "xx",
+      "password": "x"
+    },
+    {
+      "id": "34c0",
+      "name": "panchal kano ",
+      "email": "kano@gmail.com",
+      "password": "123456"
+    },
+    {
+      "id": "11a8",
+      "name": "Dimpal prajapati",
+      "email": "dimpal@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "336b",
+      "name": "kano",
+      "email": "k@gmail.com",
+      "password": "111"
+    }
+  ]
+}
